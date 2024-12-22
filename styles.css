@@ -1,0 +1,28 @@
+/* Overlay Block to Cover Unwanted Button */
+#overlay-block {
+    position: fixed;
+    bottom: 10px; /* Регулируйте, чтобы точно перекрыть кнопку */
+    right: 10px; /* Регулируйте, чтобы точно перекрыть кнопку */
+    width: 100px; /* Ширина перекрывающего блока */
+    height: 40px; /* Высота перекрывающего блока */
+    background-color: white; /* Цвет блока (в данном случае белый) */
+    z-index: 20; /* Убедитесь, что блок выше 3D-фона */
+}
+/* Footer Banner */
+#footer-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Белая плашка */
+    color: black; /* Черный текст */
+    text-align: center;
+    padding: 10px 0; /* Внутренние отступы сверху и снизу */
+    font-family: 'Gloria Hallelujah', cursive; /* Шрифт из Google Fonts */
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    z-index: 30; /* Поверх остальных элементов */
+}
+
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
